@@ -1,10 +1,10 @@
-// #include <cs50.h>
+/* A simple program written in C that prints out the size of * each data type
+ */
+
 #include <stdio.h>
 
 int main(void)
 {
-    // printf("bool is %lu\n", sizeof(bool)); // cs50.h
-    // printf("string is %lu\n", sizeof(string)); // cs50.h
     printf("char is %lu\n", sizeof(char));
     printf("int is %lu\n", sizeof(int));
     printf("float is %lu\n", sizeof(float));
